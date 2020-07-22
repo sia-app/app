@@ -1,0 +1,61 @@
+{
+  "expo": {
+    "name": "SIA",
+    "slug": "SIA",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.1.3",
+    "orientation": "portrait",
+    "scheme": "myapp",
+    "splash": {
+      "image": "./assets/images/Logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "enabled": true,
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "icon": "./assets/images/app.png",
+      "supportsTablet": false,
+      "bundleIdentifier": "in.SIA",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "We need location access to provide reminders as you enter/exit your house.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "We need location access to provide reminders as you enter/exit your house.",
+        "NSLocationAlwaysUsageDescription": "We need location access to provide reminders as you enter/exit your house."
+      },
+      "buildNumber": "5",
+      "googleServicesFile": "./GoogleService-Info.plist"
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "android": {
+      "icon": "./assets/images/play.png",
+      "package": "in.SIA",
+      "versionCode": 5,
+      "googleServicesFile": "./google-services.json",
+      "config": {
+        "googleMaps":{
+          "apiKey": "AIzaSyCvm5PPzRTWWLETHP4X4HfzP0PHgAcZI8A"
+        }
+      },
+      "adaptiveIcon":{
+        "foregroundImage": "./assets/images/Logo.png",
+        "backgroundColor": "#e47b27"
+      },
+      "useNextNotificationsApi": false,
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+      ]
+    }
+  }
+}
