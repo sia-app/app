@@ -36,7 +36,7 @@
     "firebase": "7.9.0",
     "haversine": "^1.1.1",
     "i18n-js": "^3.7.0",
-    "moment": "^2.26.0",
+    "moment": "^2.29.4",
     "react": "16.11.0",
     "react-dom": "16.11.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.0.tar.gz",
